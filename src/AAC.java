@@ -122,7 +122,7 @@ public class AAC implements ActionListener {
 			pane.add(nextArrow,BorderLayout.LINE_END);
 		}
 
-		JLabel ack = new JLabel("All provides icons are from icons8: icons8.com");
+		JLabel ack = new JLabel("All provided icons are from icons8: icons8.com");
 		pane.add(ack,BorderLayout.PAGE_END);
 		pane.revalidate();
 		pane.requestFocusInWindow();
