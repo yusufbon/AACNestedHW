@@ -152,13 +152,7 @@ public class AAC implements ActionListener {
 		catch (Exception e) {
 			e.printStackTrace();
 		}
-		AAC aac;
-//		if(args.length>0) {
-			aac = new AAC("AACMappings.txt");
-//		}
-//		else {
-//			aac = new AAC("");
-//		}
+		AAC aac = new AAC("AACMappings.txt");
 	}
 
 	/**
